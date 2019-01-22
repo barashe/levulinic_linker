@@ -1,4 +1,7 @@
+from __future__ import print_function
+
 import sys
+
 
 def is_number(s):
     try:
@@ -10,9 +13,9 @@ def is_number(s):
 args = sys.argv
 
 if len(args) < 2:
-    print 'usage: CountPairs.py input_file output_file'
-    print 'optional -r min max (acceptable similarity range)'
-    print 'optional -i intensity_percent (minimal intensity threshold)'
+    print('usage: CountPairs.py input_file output_file')
+    print('optional -r min max (acceptable similarity range)')
+    print('optional -i intensity_percent (minimal intensity threshold)')
     exit(1)
 
 input_path = args[1]
