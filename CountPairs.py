@@ -57,4 +57,3 @@ for line in f:
                 outfile.write(str(prev) + '\t' + str(prev_int) + '\t' + str(curr) + '\t' + propLine[1] + '\n')
             prev = curr
             prev_int = float(propLine[1])
-            outfile.write
