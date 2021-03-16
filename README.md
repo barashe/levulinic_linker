@@ -1,0 +1,2 @@
+# levulinic_linker
+Script to identify peptides labeled with a cleavable levulinic linker. This searches for heavy and light labeled peptides of a similar intensity (at least 80% similarity) within 2-min retention time windows. From: “Immunoediting role for major vault protein in apoptotic signaling induced by bacterial N-acyl homoserine lactones”, Rayo, Gregor, Jacob et al, PNAS, Mar 2021, 118 (12) e2012529118; https://doi.org/10.1073/pnas.2012529118
